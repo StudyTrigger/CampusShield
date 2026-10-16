@@ -1,0 +1,97 @@
+/* CampusShield visual theme: all custom CSS lives in this separate file. */
+:root {
+  --navy: #102b52;
+  --blue: #1769e8;
+  --teal: #0aa99b;
+  --ink: #142747;
+  --muted: #65738b;
+  --line: #dce6f4;
+}
+.stApp {
+  background: linear-gradient(180deg, #f6f9ff 0%, #ffffff 38%, #f8fbff 100%);
+  color: var(--ink);
+}
+.block-container {
+  max-width: 1450px;
+  padding-top: 1.15rem;
+  padding-bottom: 2.5rem;
+}
+header[data-testid="stHeader"] { background: transparent; }
+.brand-wrap {
+  display: flex; align-items: center; gap: 12px; min-height: 56px;
+}
+.brand-shield {
+  width: 48px; height: 48px; display:flex; align-items:center; justify-content:center;
+  border: 2px solid #56cbbf; border-radius: 15px; font-size: 26px;
+  background: #eafbf8;
+}
+.brand-name { font-size: 27px; line-height: 1.1; font-weight: 850; letter-spacing: -.7px; color: var(--navy); }
+.brand-name span { color: var(--teal); }
+.brand-subtitle { font-size: 12px; color: #60718d; margin-top: 4px; }
+.header-rule { height: 3px; margin: 12px 0 22px; border-radius: 10px; background: linear-gradient(90deg, var(--navy), var(--teal), #dbeafe); }
+.hero {
+  display:flex; align-items:center; justify-content:space-between; gap:24px;
+  padding: 25px 28px; border:1px solid #dce8fb; border-radius:20px;
+  background: linear-gradient(115deg,#eaf2ff 0%,#f4f8ff 58%,#e3f4ff 100%);
+  margin-bottom: 24px;
+}
+.hero-copy { flex: 1; }
+.eyebrow { font-size: 11px; font-weight: 800; letter-spacing: 1.7px; color: #1769e8; margin-bottom: 7px; }
+.hero h1 { margin: 0; font-size: 34px; color: #10264a; font-weight: 850; letter-spacing: -.9px; }
+.hero-copy p { margin: 8px 0 0; color: #526583; font-size: 15px; max-width: 740px; }
+.hero-note { display:flex; gap:12px; align-items:flex-start; max-width:330px; min-width:255px; padding:16px; background:rgba(255,255,255,.83); border:1px solid #e0e9f8; border-radius:15px; }
+.hero-note-icon { font-size:25px; }
+.hero-note b { color:#15294b; }
+.hero-note p { margin:4px 0 0; color:#5c6c85; font-size:12px; line-height:1.5; }
+.section-heading { display:flex; align-items:center; gap:13px; margin: 18px 0 15px; }
+.step-number { width:39px; height:39px; border-radius:50%; background:#1769e8; color:#fff; display:flex; align-items:center; justify-content:center; font-size:18px; font-weight:800; flex-shrink:0; }
+.section-heading h2 { font-size:22px; color:#142747; margin:0; font-weight:800; }
+.section-heading p { font-size:13px; color:#687891; margin:3px 0 0; }
+.section-title { font-size:18px; font-weight:800; margin-bottom:10px; }
+.empty-analysis {
+  border:1px dashed #cbdaf0; background:#f8fbff; border-radius:16px; padding:24px;
+  min-height: 270px; text-align:center;
+}
+.empty-icon { font-size:35px; margin: 4px 0 12px; }
+.empty-analysis h3 { font-size:18px; margin:0 0 8px; color:#203758; }
+.empty-analysis p { color:#65758e; font-size:13px; line-height:1.55; }
+.mini-pill { display:inline-block; margin:4px 3px; padding:5px 9px; border-radius:20px; background:#e8f0ff; color:#285bb0; font-size:11px; font-weight:650; }
+.info-card { padding:18px 20px; border-radius:16px; margin:10px 0 16px; border:1px solid #dcebe4; }
+.info-card h3 { font-size:17px; margin:0 0 12px; color:#173b34; }
+.info-card ol, .info-card ul { margin:0; padding-left:20px; }
+.info-card li { font-size:13px; line-height:1.65; margin-bottom:7px; color:#40556d; }
+.next-card { background:linear-gradient(135deg,#ecfbf3,#f5fff9); border-color:#d5f1e1; }
+.caution-card { background:linear-gradient(135deg,#fff8e5,#fffdf4); border-color:#f3e6bd; }
+.login-wrap { max-width:580px; margin: 40px auto 20px; padding:28px; text-align:center; background:linear-gradient(135deg,#edf4ff,#ffffff); border:1px solid #dce8fb; border-radius:20px; }
+.login-icon { font-size:42px; }
+.login-wrap h1 { font-size:30px; color:#142747; margin:8px 0; }
+.login-wrap p { color:#64748b; margin:0; }
+.case-id { background:#eaf2ff; color:#1b4f9b; border:1px solid #d7e6ff; padding:9px 12px; border-radius:10px; margin-bottom:14px; }
+.success-ticket { padding:13px 16px; border-radius:12px; background:#e9fbf2; color:#087b52; border:1px solid #c8f0dc; margin:14px 0; }
+.footer { text-align:center; color:#8390a4; font-size:11px; padding:28px 0 0; }
+div[data-testid="stMetric"] { background:#fff; border:1px solid #e0e9f7; border-radius:15px; padding:15px 16px; box-shadow:0 2px 8px rgba(20,50,90,.035); }
+div[data-testid="stMetricLabel"] { color:#62728a; }
+div[data-testid="stMetricValue"] { color:#1769e8; font-weight:800; }
+.stButton > button, .stFormSubmitButton > button {
+  border-radius:10px; font-weight:700; min-height:42px; border:1px solid #d7e2f2;
+  transition: all .15s ease;
+}
+.stButton > button[kind="primary"], .stFormSubmitButton > button[kind="primary"] {
+  background:linear-gradient(90deg,#1769e8,#2f7bf4); color:#fff; border:0;
+}
+.stButton > button:hover, .stFormSubmitButton > button:hover { border-color:#82a9ed; transform:translateY(-1px); }
+div[data-testid="stTextArea"] textarea, div[data-testid="stTextInput"] input {
+  border-radius:10px; background:#fff;
+}
+div[data-testid="stSelectbox"] > div > div { border-radius:10px; }
+div[data-testid="stFileUploader"] { background:#f8fbff; border:1px dashed #c6d6ed; border-radius:12px; padding:8px; }
+div[data-testid="stDataFrame"] { border:1px solid #e1e9f5; border-radius:12px; overflow:hidden; }
+hr { border-color:#e4ebf5; }
+@media (max-width: 800px) {
+  .hero { display:block; padding:20px; }
+  .hero-note { margin-top:18px; min-width:0; max-width:none; }
+  .hero h1 { font-size:28px; }
+  .brand-name { font-size:22px; }
+}
+
+

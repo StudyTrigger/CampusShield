@@ -1,0 +1,2 @@
+complaint_id,submitted_at,student_name,department,sender,incident_date,category,message,screenshot_path,description,risk_score,risk_level,indicators,status,admin_notes,last_updated
+CS-0001,2026-10-15 17:08:48,Sunny,Prefer not to say,8988748,2026-10-15,Sextortion / threat to share private content,Send me ₹5000 or I will share your private photos with your friends. You have 2 hours.,uploads\f96a5c5a920d4c18a9d8ff12b4bf9752.png,Yesterday in the class i recieved this message,35,Medium,Payment demand | Contacting friends / family,Open,,2026-10-15 17:08:48
