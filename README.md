@@ -55,6 +55,9 @@ The project demonstrates how Python can be used to build a simple cybersecurity 
 * Calculate a preliminary risk score and risk category
 * Display detected indicators and suggested safety guidance
 
+  <img width="1561" height="1030" alt="image" src="https://github.com/user-attachments/assets/3339380e-71aa-459f-b299-483abd9b83e7" />
+
+
 ## 📝 Complaint Registration
 
 * Register complaints related to online blackmail and sextortion
@@ -64,6 +67,9 @@ The project demonstrates how Python can be used to build a simple cybersecurity 
 * Upload an optional screenshot as supporting evidence
 * Generate a unique complaint ID
 * Validate required fields and screenshot file size
+
+  <img width="1480" height="1036" alt="image" src="https://github.com/user-attachments/assets/5913e8e3-52d7-403a-9eee-a671d0a2302e" />
+
 
 ## 🔐 Admin Dashboard
 
@@ -77,6 +83,9 @@ The project demonstrates how Python can be used to build a simple cybersecurity 
   * Resolved
 * Add administrative notes and record follow-up actions
 
+  <img width="1498" height="782" alt="image" src="https://github.com/user-attachments/assets/5a24a50b-20bc-4a17-bdd6-7134303fb386" />
+
+
 ## 📊 Complaint Management
 
 * Store complaint records in CSV format
@@ -84,6 +93,13 @@ The project demonstrates how Python can be used to build a simple cybersecurity 
 * Maintain complaint status and risk assessment details
 * Store uploaded screenshots in a local directory
 * Generate basic complaint statistics for the dashboard
+
+  <img width="1501" height="1027" alt="image" src="https://github.com/user-attachments/assets/68805189-7b4e-4e28-ae90-dddf16a5763d" />
+
+  <img width="1498" height="1027" alt="image" src="https://github.com/user-attachments/assets/2eb49470-6fef-4569-a4cf-758ac22e90f3" />
+
+  <img width="1573" height="1011" alt="image" src="https://github.com/user-attachments/assets/586832ae-a824-4292-a5f8-fdd7118adf57" />
+
 
 ## 🎨 Streamlit Interface
 
@@ -180,7 +196,7 @@ Before running this project, install:
 
 ## 1️⃣ Clone Repository
 
-Replace `YOUR_USERNAME` with your GitHub username.
+Replace `Study Trigger` with your GitHub username.
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/CampusShield.git
